@@ -24,7 +24,7 @@
  }
 
  p {
-     font-family: sans-serif;
+     font-family: 'Roboto', sans-serif;
      color: black;
      font-size: 14px;
 
@@ -47,7 +47,7 @@
  }
 
  nav a {
-     color: aliceblue;
+     color: white;
 
  }
 
@@ -71,7 +71,7 @@
  #footer img {
 
      background-repeat: no-repeat;
-     background-size: 100%;
+
      width: 20px;
      position: relative;
      top: 12px;
@@ -102,11 +102,11 @@
  }
 
  #cv .navn {
-     font-size: 23px;
+     font-size: 25px;
      text-align: center;
      font-weight: bolder;
-     font-family: 'Charm', cursive;
-     color: #606060
+
+     color: #715454
  }
 
  #cv h2 {
@@ -137,7 +137,7 @@
  }
 
  #cv .column .left {
-     background-color: rosybrown;
+     background-color: #bc9090;
      flex-basis: 200px;
      flex-grow: 1;
      background-color: #d6b5b5;
@@ -158,7 +158,7 @@
  }
 
  #cv img {
-     width: 250px;
+     width: 100%;
 
 
 
@@ -171,14 +171,14 @@
  /*----------PORTFOLIE TEMA 1------------*/
 
  #tema1 .column {
-     background-color: rosybrown;
+     background-color: rgb(188, 143, 143);
  }
 
  #tema1 .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -192,7 +192,8 @@
      background-image: url(swissstyle.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
+     margin-top: 60px;
+     margin-bottom: 60px;
      flex-basis: 200px;
      flex-grow: 1;
 
@@ -201,9 +202,9 @@
  #tema1 .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 92%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 3px;
  }
 
  #tema1 .column .right .overlay:hover {
@@ -251,8 +252,8 @@
  #tema2 .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -263,11 +264,13 @@
 
 
  #tema2 .column .right {
+     background-size: cover;
      background-image: url(peter.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
      flex-basis: 200px;
      flex-grow: 1;
 
@@ -276,9 +279,9 @@
  #tema2 .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 92%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 3px;
  }
 
  #tema2 .column .right .overlay:hover {
@@ -319,14 +322,14 @@
 
  /*----------PORTFOLIE TEMA 2 REDESIGN ------------*/
  #tema2_redesign .column {
-     background-color: rosybrown;
+     background-color: rgb(188, 143, 143);
  }
 
  #tema2_redesign .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -337,11 +340,12 @@
 
 
  #tema2_redesign .column .right {
+     background-size: cover;
      background-image: url(redesign.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
 
@@ -352,7 +356,7 @@
      opacity: 0;
      height: 92%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 2px;
  }
 
  #tema2_redesign .column .right .overlay:hover {
@@ -403,8 +407,8 @@
  #tema3_individuel .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -419,8 +423,8 @@
 
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
 
@@ -429,9 +433,9 @@
  #tema3_individuel .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 92%;
+     height: 80%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 3px;
  }
 
  #tema3_individuel .column .right .overlay:hover {
@@ -475,8 +479,8 @@
  #tema3_gruppe .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -489,18 +493,19 @@
      background-image: url(gruppe_projekt.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
+
  }
 
  #tema3_gruppe .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 92%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 2px;
  }
 
  #tema3_gruppe .column .right .overlay:hover {
@@ -549,11 +554,7 @@
 
  /*----------PORTFOLIE TEMA 4 INDIVIDUEL------------*/
 
- #tema4_individuel p {
 
-     padding: 10px;
-     margin: 10px;
- }
 
  #tema4_individuel {
      background-color: #d4aaaa;
@@ -562,8 +563,8 @@
  #tema4_individuel .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -576,8 +577,8 @@
      background-image: url(fronter_individuel.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
  }
@@ -585,9 +586,9 @@
  #tema4_individuel .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 92%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 2px;
  }
 
  #tema4_individuel .column .right .overlay:hover {
@@ -612,6 +613,12 @@
      border-radius: 50px 50px 50px 50px;
  }
 
+ #tema4_individuel p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
  /*----------PORTFOLIE TEMA 4 GRUPPE 1------------*/
  #tema4_gruppe1 p {
 
@@ -626,8 +633,8 @@
  #tema4_gruppe1 .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -640,8 +647,8 @@
      background-image: url(webprototype.png);
      background-repeat: no-repeat;
      background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
  }
@@ -649,9 +656,9 @@
  #tema4_gruppe1 .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 94%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 2px;
  }
 
  #tema4_gruppe1 .column .right .overlay:hover {
@@ -691,8 +698,8 @@
  #tema4_gruppe2 .column {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 10vw;
-     padding-right: 10vw;
+     padding-left: 10px;
+     padding-right: 10px;
 
  }
 
@@ -702,11 +709,11 @@
  }
 
  #tema4_gruppe2 .column .right {
+     background-size: 100%;
      background-image: url(nativeapp.png);
      background-repeat: no-repeat;
-     background-size: 100%;
-     margin-top: 10vw;
-     margin-bottom: 10vw;
+     margin-top: 10px;
+     margin-bottom: 10px;
      flex-basis: 200px;
      flex-grow: 1;
  }
@@ -714,9 +721,9 @@
  #tema4_gruppe2 .column .right .overlay {
      background: rgb(188, 143, 143);
      opacity: 0;
-     height: 95%;
+     height: 99%;
      margin: 0;
-     padding-top: 2vw;
+     padding-top: 2px;
  }
 
  #tema4_gruppe2 .column .right .overlay:hover {
@@ -739,4 +746,29 @@
      font-size: 15px;
      font-weight: bolder;
      border-radius: 50px 50px 50px 50px;
+ }
+
+ /*----------PORTFOLIE TEMA 4 TEMADOKUMENTATION------------*/
+
+ #temadokumentation h2 {
+     font-size: 18px;
+
+
+
+ }
+
+ #temadokumentation h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
+
+ #temadokumentation p {
+
+     padding: 40px;
+     margin: 40px;
  }
