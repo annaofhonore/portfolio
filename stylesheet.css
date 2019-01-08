@@ -1,0 +1,608 @@
+ body {
+     margin: 0;
+     background-color: #bc8f8f;
+ }
+
+ h1 {
+     font-family: 'Thasadith', sans-serif;
+
+
+ }
+
+ h2 {
+     font-family: 'Thasadith', sans-serif;
+     color: black;
+
+
+
+ }
+
+ h3 {
+     color: black;
+     font-size: 10px;
+     font-family: 'Thasadith', sans-serif;
+ }
+
+ p {
+     font-family: sans-serif;
+     color: black;
+     font-size: 14px;
+
+
+ }
+
+ a {
+     text-decoration: none;
+     margin: 10px;
+ }
+
+ nav {
+     background-color: #715454;
+     overflow: hidden;
+     font-family: 'Thasadith', sans-serif;
+     width: 100%;
+
+
+
+ }
+
+ nav a {
+     color: aliceblue;
+
+ }
+
+
+ nav li {
+     display: inline-block;
+ }
+
+ #footer {
+     background-color: #715454;
+     overflow: hidden;
+     font-family: 'Thasadith', sans-serif;
+     width: 100%;
+     padding-top: 15px;
+     padding-bottom: 15px;
+
+
+
+ }
+
+ #footer img {
+
+     background-repeat: no-repeat;
+     background-size: 100%;
+     width: 20px;
+     position: relative;
+     top: 12px;
+     left: 2px;
+ }
+
+
+ /*-----------------FORSIDE------------*/
+ #forside img {
+     width: 100%;
+
+ }
+
+
+
+ #forside h2 {
+     font-size: 20px;
+
+ }
+
+
+
+
+ /*-----------------CV-------------*/
+
+ #cv h1 {
+     font-size: 20px;
+ }
+
+ #cv .navn {
+     font-size: 23px;
+     text-align: center;
+     font-weight: bolder;
+
+ }
+
+ #cv h2 {
+     font-size: 17px;
+ }
+
+ #cv h3 {
+     font-size: 14px;
+     text-align: center;
+     padding-top: 60px;
+ }
+
+ #cv p {
+     font-size: 13px;
+ }
+
+ #cv .column {
+     background-color: rgb(188, 143, 143);
+ }
+
+ #cv .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 15px;
+     padding-right: 15px;
+
+
+ }
+
+ #cv .column .left {
+     background-color: rosybrown;
+     flex-basis: 200px;
+     flex-grow: 1;
+     background-color: #d6b5b5;
+     border-radius: 30px 30px 30px 30px;
+     padding: 40px;
+     margin: 20px
+ }
+
+
+ #cv .column .right {
+
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+     padding: 40px;
+     margin: 20px
+ }
+
+ #cv img {
+     width: 250px;
+
+
+
+ }
+
+
+
+ /*----------PORTFOLIE TEMA 1------------*/
+
+
+ #tema1 img {
+     max-width: 200px;
+     padding: 15px;
+ }
+
+ #tema1 p {
+     font-family: sans-serif;
+     color: black;
+     font-size: 14px;
+ }
+
+ .responsive_site {
+     background-color: aliceblue;
+     width: 100px;
+     text-align: center;
+
+ }
+
+ .responsive_site h3 {
+     font-size: 15px;
+
+ }
+
+ h3 {
+     margin 0;
+ }
+
+ #tema1 .column {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 100%;
+     background-color: #d6b5b5;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema1 .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema1 h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+
+
+
+ }
+
+ #tema1 h2 {
+     font-size: 18px;
+
+
+ }
+
+ #tema1 .column .right {
+     background-image: url(swissstyle.png);
+     Background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+     flex-wrap: wrap;
+ }
+
+ #tema1 .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 92%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema1 .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+ #tema1 p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+ /*----------PORTFOLIE TEMA 3 - INDIVIDUEL------------*/
+ #tema3_individuel .column {
+     background-color: rosybrown;
+ }
+
+ #tema3_individuel .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema3_individuel .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+
+ #tema3_individuel .column .right {
+     background-image: url(animation.png);
+
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+
+ }
+
+ #tema3_individuel .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 92%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema3_individuel .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+
+ #tema3_individuel h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
+
+ #tema3_individuel h2 {
+     font-size: 18px;
+
+
+ }
+
+ #tema3_individuel p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+
+ #tema3_individuel .introtekst_individuel {
+     position: relative;
+
+     right: 19px;
+
+ }
+
+ /*----------PORTFOLIE TEMA 3 - GRUPPE------------*/
+
+ #tema3_gruppe .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema3_gruppe .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema3_gruppe .column .right {
+     background-image: url(gruppe_projekt.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema3_gruppe .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 92%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema3_gruppe .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+
+ #tema3_gruppe h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
+
+ #tema3_gruppe h2 {
+     font-size: 18px;
+
+
+
+ }
+
+ #tema3_gruppe h1 {
+
+     padding-top: 10px;
+
+
+ }
+
+ #tema3_gruppe p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+ #tema3_gruppe .introtekst_gruppe {
+     position: relative;
+
+     right: 19px;
+
+ }
+
+
+ /*----------PORTFOLIE TEMA 4 INDIVIDUEL------------*/
+
+ #tema4_individuel p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+ #tema4_individuel {
+     background-color: #d6b5b5;
+ }
+
+ #tema4_individuel .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema4_individuel .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_individuel .column .right {
+     background-image: url(fronter_individuel.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_individuel .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 92%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema4_individuel .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+ #tema4_individuel h2 {
+     font-size: 18px;
+
+
+
+ }
+
+ #tema4_individuel h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
+
+ /*----------PORTFOLIE TEMA 4 GRUPPE 1------------*/
+ #tema4_gruppe1 p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+ #tema4_gruppe1 {
+     background-color: #d6b5b5;
+ }
+
+ #tema4_gruppe1 .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema4_gruppe1 .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_gruppe1 .column .right {
+     background-image: url(webprototype.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_gruppe1 .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 94%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema4_gruppe1 .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+ #tema4_gruppe1 h2 {
+     font-size: 18px;
+
+
+
+ }
+
+ #tema4_gruppe1 h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
+
+ /*----------PORTFOLIE TEMA 4 GRUPPE 2------------*/
+ #tema4_gruppe2 p {
+
+     padding: 10px;
+     margin: 10px;
+ }
+
+ #tema4_gruppe2 {
+     background-color: #d6b5b5;
+ }
+
+ #tema4_gruppe2 .column {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 10vw;
+     padding-right: 10vw;
+
+ }
+
+ #tema4_gruppe2 .column .left {
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_gruppe2 .column .right {
+     background-image: url(nativeapp.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     flex-basis: 200px;
+     flex-grow: 1;
+ }
+
+ #tema4_gruppe2 .column .right .overlay {
+     background: rgb(188, 143, 143);
+     opacity: 0;
+     height: 95%;
+     margin: 0;
+     padding-top: 2vw;
+ }
+
+ #tema4_gruppe2 .column .right .overlay:hover {
+     opacity: 1;
+     transition: .5s;
+ }
+
+ #tema4_gruppe2 h2 {
+     font-size: 18px;
+
+
+
+ }
+
+ #tema4_gruppe2 h3 {
+     background-color: white;
+     width: 150px;
+     padding: 10px;
+     text-align: center;
+     font-size: 15px;
+     font-weight: bolder;
+     border-radius: 50px 50px 50px 50px;
+ }
